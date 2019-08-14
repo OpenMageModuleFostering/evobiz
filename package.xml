@@ -1,0 +1,24 @@
+<?xml version="1.0"?>
+<package>
+    <name>Evobiz</name>
+    <version>1.0.0</version>
+    <stability>stable</stability>
+    <license uri="http://opensource.org/licenses/GPL-3.0">GPL-3.0</license>
+    <channel>community</channel>
+    <extends/>
+    <summary>XML export tool for EvoBiz&#xD;
+</summary>
+    <description>This extension allows you to distribute your product in many support online sales catalog: Marketplaces, comparison, governed affiliations. By coupling with Evobiz you can improve the visibility of your offers and the ROI of your campaigns.&#xD;
+&#xD;
+This extension allows you to export your product expected by Evobiz size catalog and interface your Magento store with our Evobiz tool.&#xD;
+&#xD;
+See the documentation in docroot/evobiz/readme_en.pdf&#xD;
+</description>
+    <notes>Premi&#xE8;re version sur  Magento Connect</notes>
+    <authors><author><name>de Poorter</name><user>Xavier</user><email>xavier@jvweb.fr</email></author></authors>
+    <date>2013-11-04</date>
+    <time>09:42:30</time>
+    <contents><target name="magecommunity"><dir name="Jvweb"><dir name="Evobiz"><dir name="etc"><file name="config.xml" hash="2ebe64039e64a204553967c7cb848b2b"/></dir></dir></dir></target><target name="mage"><dir name="evobiz"><file name="export.php" hash="b54c032f1c11b7e24988cbdf58047799"/><dir name="classes"><file name="exportEvo.php" hash="0d311289dde91f4c0a0f4485a22ec301"/><file name="exportEvo17.php" hash="1e0ebbfabd41117247d2aab1cfd8931b"/><file name="evo.php" hash="7dadf662698351265394396173590c74"/></dir><dir name="includes"><file name="debug.php" hash="9302a8305980747c1a5d81abf21a17fa"/><file name="config.php" hash="11bb222d7c9856a183a0bbb33d604cda"/><file name="functions.php" hash="1743b694c1ed43e272ccc75e752144af"/></dir><dir name="sh"><file name="exportMulti.sh" hash="5cef4f4bfae09c212225ee3510f8aeeb"/><file name="exportMulti.sh" hash="5cef4f4bfae09c212225ee3510f8aeeb"/></dir><file name="readme_fr.pdf" hash="05c43eb53bb3db8575351a6df1cd7249"/></dir></target><target name="magelocal"><dir name="evobiz"><file name="readme_en.pdf" hash=""/></dir></target></contents>
+    <compatible/>
+    <dependencies><required><php><min>5.2.0</min><max>6.0.0</max></php></required></dependencies>
+</package>
