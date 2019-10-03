@@ -1,17 +1,5 @@
 {
-    "name": "OpenMageModuleFostering/Evobiz",
-    "type": "magento-module",
-    "license": "GPL-3.0",
-    "homepage": "",
-    "description": "XML export tool for EvoBiz
-",
-    "authors": [
-    {
-        "name": "de Poorter",
-        "email": "xavier@jvweb.fr"
-    }
-],
-    "suggest": {
-        "magento-hackathon/magento-composer-installer": "*"
-    }
+    "keywords": [
+        "openmage-module"
+    ]
 }
